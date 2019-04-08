@@ -10,7 +10,7 @@
       console.log('hi');
       axios.get('https://swapi.co/api/starships/9/')
     .then(function (response) {
-      document.selectElementById('name').innerHTML = response.data.name
+      document.getElementById('name').innerHTML = response.data.name
       resultElement.innerHTML = 
       console.log(response.data.name)
     })
